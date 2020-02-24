@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+__pychae__/
+Include/
+Lib/
+Scripts/
+stockfish-11-win/
+venv/
