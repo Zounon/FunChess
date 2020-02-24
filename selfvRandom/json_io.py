@@ -1,11 +1,15 @@
-from flask import Flask, escape, request
+import os
+import requests
+from flask import Flask, render_template, request, Response
 
 app = Flask(__name__)
 
-@app.route('/output')
-def output():
-    return "hi"
-if __name__== "__main__":
-    app.run()
 
-    
+@app.route("/")
+def hello():
+    ret = open("index.html").read()
+    return ret
+
+
+if __name__ == "__main__":
+    app.run()
