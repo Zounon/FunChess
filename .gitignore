@@ -1,8 +1,3 @@
 .idea/
-.vscode/
+oldFiles
 __pycache__/
-Include/
-Lib/
-Scripts/
-stockfish-11-win/
-venv/
